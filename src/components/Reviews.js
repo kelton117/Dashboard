@@ -1,8 +1,8 @@
 function Reviews(props) {
     return (
-        <div>
+        <div className="reviews">
             <h1>Reviews</h1>
-            <h4>1,281</h4>
+            <p>1,281</p>
         </div>
     )
 }

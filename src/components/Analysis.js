@@ -1,10 +1,10 @@
 function Analysis(props) {
     return (
-        <div>
+        <div className="analysis">
             <h1>Sentiment Analysis</h1>
-            <h4>960</h4>
-            <h4>122</h4>
-            <h4>321</h4>
+            <p>960</p>
+            <p>122</p>
+            <p>321</p>
         </div>
     )
 }

@@ -1,0 +1,47 @@
+.menu {
+    grid-area: menu;
+    
+ 
+  
+  background-color: grey;
+}
+
+.rating {
+    grid-area: rating;
+   
+  
+  background-color: grey;
+}
+
+.reviews {
+    grid-area: reviews;
+   
+  
+  background-color: grey;
+}
+
+.analysis {
+    grid-area: analysis;
+   
+  
+  background-color: grey;
+}
+
+.visitors {
+    grid-area: visitors;
+   
+  
+  background-color: grey;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "menu reviews rating analysis"
+      "menu visitors visitors visitors"
+      "menu visitors visitors visitors";
+  }

@@ -1,8 +1,8 @@
 function Rating(props) {
     return (
-        <div>
+        <div className="rating">
             <h1>Average Rating</h1>
-            <h4>4.6</h4>
+            <p>4.6</p>
         </div>
     );
 }

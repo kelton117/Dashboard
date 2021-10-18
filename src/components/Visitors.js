@@ -1,8 +1,8 @@
 function Visitors(props) {
     return (
-        <div>
+        <div className="visitors">
             <h1>Website Visitors</h1>
-            <h4>821</h4>
+            <p>821</p>
         </div>
     )
 }
